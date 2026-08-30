@@ -91,6 +91,7 @@ section{padding:clamp(48px,9vw,84px) 0}
 .card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(62,32,25,.13)}
 .card-img{aspect-ratio:5/4;background:#F0E7D8;position:relative}
 .card-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card-img img.crop-br{transform:scale(1.2);transform-origin:22% 22%}
 .tag{position:absolute;top:10px;left:10px;background:var(--brown);color:var(--cream);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:.3rem .55rem;border-radius:999px}
 .card-body{padding:14px 15px 16px;display:flex;flex-direction:column;gap:.3rem;flex:1}
 .card-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
@@ -233,7 +234,7 @@ footer a:hover{color:var(--caramel-lt)}
         </div>
       </article>
       <article class="card">
-        <div class="card-img"><span class="tag">Buy 1 get 1 free</span><img src="https://tb-static.uber.com/prod/image-proc/processed_images/2f655be339b8c6c31585fb92f43c9216/4218ca1d09174218364162cd0b1a8cc1.jpeg" alt="Choc Chip Cookie Dough at Cookies &amp; Cream South Woodford" width="500" height="400" loading="lazy" decoding="async"></div>
+        <div class="card-img"><span class="tag">Buy 1 get 1 free</span><img src="https://tb-static.uber.com/prod/image-proc/processed_images/2f655be339b8c6c31585fb92f43c9216/4218ca1d09174218364162cd0b1a8cc1.jpeg" class="crop-br" alt="Choc Chip Cookie Dough at Cookies &amp; Cream South Woodford" width="500" height="400" loading="lazy" decoding="async"></div>
         <div class="card-body">
           <div class="card-top"><h3>Choc Chip Cookie Dough</h3><span class="price">&pound;11.95</span></div>
           <p>Freshly baked cookie dough with chocolate sauce and vanilla ice cream.</p>
@@ -261,7 +262,7 @@ footer a:hover{color:var(--caramel-lt)}
         </div>
       </article>
       <article class="card">
-        <div class="card-img"><img src="https://tb-static.uber.com/prod/image-proc/processed_images/eefaccc27a7bd3266fb95731723bc581/bc9c318a9c96996e2d990faf2b0c65f6.jpeg" alt="Classic Brownie Melt at Cookies &amp; Cream South Woodford" width="500" height="400" loading="lazy" decoding="async"></div>
+        <div class="card-img"><img src="https://tb-static.uber.com/prod/image-proc/processed_images/eefaccc27a7bd3266fb95731723bc581/bc9c318a9c96996e2d990faf2b0c65f6.jpeg" class="crop-br" alt="Classic Brownie Melt at Cookies &amp; Cream South Woodford" width="500" height="400" loading="lazy" decoding="async"></div>
         <div class="card-body">
           <div class="card-top"><h3>Classic Brownie Melt</h3><span class="price">&pound;8.95</span></div>
           <p>Hot gooey brownie with chocolate sauce and vanilla soft serve.</p>
@@ -300,13 +301,6 @@ footer a:hover{color:var(--caramel-lt)}
         <div class="card-body">
           <div class="card-top"><h3>Choc Fudge Cake &amp; Ice Cream</h3><span class="price">&pound;10.95</span></div>
           <p>Warm indulgent fudge cake served with vanilla ice cream.</p>
-        </div>
-      </article>
-      <article class="card">
-        <div class="card-img"><img src="https://tb-static.uber.com/prod/image-proc/processed_images/0065166e37d37ac1b0a7b33cd02bed51/783282f6131ef2258e5bcd87c46aa87e.jpeg" alt="Churros and Ice Cream at Cookies &amp; Cream South Woodford" width="500" height="400" loading="lazy" decoding="async"></div>
-        <div class="card-body">
-          <div class="card-top"><h3>Churros &amp; Ice Cream</h3><span class="price">&pound;9.45</span></div>
-          <p>Five pieces coated in sugar and cinnamon with chocolate sauces to dip.</p>
         </div>
       </article>
     </div>
